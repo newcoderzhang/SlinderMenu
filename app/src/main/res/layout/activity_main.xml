@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.huilong.zhang.myslidermenu.MainActivity">
+
+    <com.huilong.zhang.myslidermenu.View.SlideMenu
+        android:id="@+id/slideMenu"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+        <include layout="@layout/layout_menu"/>
+        <include layout="@layout/layout_main"/>
+    </com.huilong.zhang.myslidermenu.View.SlideMenu>
+
+
+
+
+</RelativeLayout>
